@@ -1,0 +1,23 @@
+Project Overview
+This is a 2D interactive game where players control an aircraft to catch falling objects (apples). It was developed to demonstrate GUI design and hardware-software integration using a Raspberry Pi.
+
+How to Run / Demonstration
+Due to the hardware-specific nature of this project (Raspberry Pi and Joystick) and the legacy environment it was built on, it may be difficult to compile on modern systems. To provide a clear overview of the results, a demonstration video is included in the repository. For technical review, please refer to the source code for implementation details.
+
+Technologies Used
+Language: C++
+
+Framework: Qt
+
+Hardware: Raspberry Pi, Joystick
+
+Personal Contributions
+As the lead programmer and designer, I was responsible for the majority of the project's development, including:
+
+System Architecture: Designed and implemented the overall game framework and logic.
+
+Core Game Mechanics: Developed the game loop, timing system, and scoring logic.
+
+Problem Solving: Engineered a custom, coordinate-based collision detection system to overcome library limitations and ensure responsive gameplay.
+
+Hardware Integration: Programmed the interface to sync physical joystick inputs with software movement.
